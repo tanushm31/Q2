@@ -4,6 +4,7 @@ pipeline {
         stage('Build') { 
             steps {
                 echo 'build done'
+                System.out.println("Whatever")
             }
         }
         stage('Test') { 
